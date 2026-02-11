@@ -1,1 +1,0 @@
-{"name":"Local: DSA09005","url":"d:\\dsa-codeptit\\DSA09005.cpp","tests":[{"id":1769128031904,"input":"1\n6 9 1\n1 2\n1 3\n2 3\n2 5\n3 4\n3 5\n4 5\n4 6\n5 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\dsa-codeptit\\DSA09005.cpp","group":"local","local":true}
