@@ -26,6 +26,7 @@ void nhap()
 
 void Prim()
 {
+    //Min_heap : pq.top() la ptu be nhat
     priority_queue<pair<int,int>, vector<pair<int, int>>, greater<pair<int,int>>> pq;
     int d = 0, cnt = 0;
     used[1] = 1;
