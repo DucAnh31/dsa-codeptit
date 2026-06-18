@@ -7,7 +7,7 @@ using namespace std;
 
 int solve(string s)
 {
-    int ans = -1;
+    int ans = 0;
     stack<int> st;
     st.push(-1);
     for(int i = 0; i < s.size(); i++)
@@ -16,8 +16,7 @@ int solve(string s)
             st.push(i);
         else
         {
-            if(!st.empty())
-                st.pop();
+            st.pop();
             if(!st.empty())
                 ans = max(ans, i - st.top());
             else
